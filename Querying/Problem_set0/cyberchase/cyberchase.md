@@ -29,6 +29,8 @@ For each of the following questions, you should write a single SQL query that ou
 13. In `13.sql`, write a SQL query to explore a question of your choice. This query should:
     - Involve at least one condition, using `WHERE` with `AND` or `OR`
 
+# gemini-ს თარგმანი
+
 # სქემა (Schema)
 ----------
 თითოეულ მონაცემთა ბაზას აქვს თავისი „სქემა“ — ცხრილები და სვეტები, რომლებშიც მონაცემებია ორგანიზებული. მონაცემთა ბაზაში `cyberchase.db` თქვენ იპოვით ერთ ცხრილს, სახელად `episodes`. ცხრილში `episodes` მოცემულია შემდეგი სვეტები:
@@ -42,7 +44,6 @@ For each of the following questions, you should write a single SQL query that ou
 - `production_code`: უნიკალური საწარმოო კოდი, რომელსაც PBS იყენებს შიდა მოხმარებისთვის.
 
 
-# gemini-ს თარგმანი
 
 # სპეციფიკაციები
 თითოეული ქვემოთ მოცემული კითხვისთვის უნდა დაწეროთ ერთი SQL მოთხოვნა (query), რომელიც გამოიტანს დავალებაში მითითებულ შედეგს. თქვენი პასუხი უნდა შედგებოდეს მხოლოდ ერთი SQL მოთხოვნისგან. გარდა ამისა, თითოეულმა მოთხოვნამ უნდა დააბრუნოს მხოლოდ კითხვისთვის საჭირო მონაცემები: მაგალითად, თუ დავალება ითხოვს მხოლოდ ეპიზოდების სათაურებს, თქვენმა მოთხოვნამ არ უნდა გამოიტანოს ამ ეპიზოდების გამოშვების თარიღები.
